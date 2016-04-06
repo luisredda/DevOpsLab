@@ -11,7 +11,7 @@ public class MainController implements Serializable {
 
 	private static final long serialVersionUID = 3973801993975443027L;
 
-	private string name;
+	private String name;
 	private String primeName;
 	private String richName;
 
