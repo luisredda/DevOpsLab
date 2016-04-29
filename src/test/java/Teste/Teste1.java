@@ -13,7 +13,7 @@ public class Teste1 {
 		String resultado =	teste.Concatenate("oioi", "tchau");
 		
 		
-		assertEquals("oioitcha2u", resultado);
+		assertEquals("oioitchau", resultado);
 	}
 
 }
