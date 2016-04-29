@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import lab.view.*;
-
 public class Teste1 {
 
 	@Test
