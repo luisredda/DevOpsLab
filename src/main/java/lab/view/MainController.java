@@ -16,7 +16,7 @@ public class MainController implements Serializable {
 	private String richName;
 
 	public String getName() {
-		return name;
+		return name; //Comment
 	}
 
 	public void setName(String name) {
