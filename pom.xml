@@ -37,10 +37,6 @@
 			<url>http://repository.primefaces.org</url>
 			<layout>default</layout>
 		</repository>
-		<repository>
-         <id>localrepository</id>
-         <url>c:\.m2\repository</url>
-      </repository>
 	</repositories>
 
 	<dependencies>
