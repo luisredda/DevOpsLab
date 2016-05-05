@@ -23,13 +23,13 @@
     		<artifactId>maven-surefire-plugin</artifactId>
     		<version>2.8.1</version>
     		<configuration>
-    		 <forkMode>once</forkMode>
-			<argLine>-agentpath:"C:\Program Files\dynaTrace\dynaTrace 6.3\agent\lib64\dtagent.dll"=name=${dynaTrace.agentGroup},
-server=${dynaTrace.collector},optionTestRunIdJava=${dtTestrunID}</argLine>
-</configuration>	
-	</plugin>
+	    		 <forkMode>once</forkMode>
+				<argLine>-agentpath:"C:\Program Files\dynaTrace\dynaTrace 6.3\agent\lib64\dtagent.dll"=name=${dynaTrace.agentGroup},
+	server=${dynaTrace.collector},optionTestRunIdJava=${dtTestrunID}</argLine>
+			</configuration>	
+		</plugin>
  	<plugin>
-			 <groupId>dynaTrace</groupId>
+		    <groupId>dynaTrace</groupId>
             <artifactId>dtAutomation</artifactId>
             <version>${dynaTrace.version}</version>
             <executions>
