@@ -26,10 +26,10 @@
 		    		 <forkMode>once</forkMode>
 				<!-- load the Java agent in the new JVM and also pass the test run id
 				(dtTestrunID property) to the agent -->
-				<argLine>-agentpath:"C:\Program Files\dynaTrace\dynaTrace 6.3\agent\lib64\dtagent.dll"=
-				name="Unitario",
-				server="localhost:9998",optionTestRunIdJava=${dtTestrunID}</argLine>
-				
+				<argLine>-agentpath:"C:\Program Files\dynaTrace\
+				dynaTrace 6.3\agent\lib64\dtagent.dll"=
+				name=${dynaTrace.agentGroup}_${dynaTrace.profileName},
+				server=${dynaTrace.collector},optionTestRunIdJava=${dtTestrunID}</argLine>
 				</configuration>	
 			</plugin>
 		</plugins>
@@ -99,5 +99,13 @@
 	</dependencyManagement>
 	<properties>
 		<dynaTrace.version>6.3</dynaTrace.version>
+		<dynaTrace.testCategory>Unit</dynaTrace.testCategory>
+		<dynaTrace.agentGroup>Unitario</dynaTrace.agentGroup>
+		<dynaTrace.profileName>Redda</dynaTrace.profileName>
+		<dynaTrace.username>admin</dynaTrace.username>
+		<dynaTrace.password>admin</dynaTrace.password>
+		<dynaTrace.collector>localhost:9998</dynaTrace.collector>
+		<dynaTrace.serverUrl>http://localhost:8020</dynaTrace.serverUrl>
+	
 	</properties>
 </project>
