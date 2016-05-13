@@ -98,7 +98,7 @@
 		<dynaTrace.version>6.3</dynaTrace.version>
 		<dynaTrace.testCategory>Unit</dynaTrace.testCategory>
 		<dynaTrace.agentGroup>Unitario</dynaTrace.agentGroup>
-		<dynaTrace.profileName>Redda</dynaTrace.profileName>
+		<dynaTrace.profileName>null</dynaTrace.profileName>
 		<dynaTrace.username>admin</dynaTrace.username>
 		<dynaTrace.password>admin</dynaTrace.password>
 		<dynaTrace.collector>localhost:9998</dynaTrace.collector>
