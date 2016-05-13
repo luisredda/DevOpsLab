@@ -10,10 +10,10 @@ public class Teste1 {
 	public void test() {
 		
 		lab.view.Negocio teste = new lab.view.Negocio();
-		String resultado =	teste.Concatenate("oioi", "tchau");
+		String resultado =	teste.Concatenate("oioi", "tchau2");
 		
 		
-		assertEquals("oioitchau", resultado);
+		assertEquals("oioitchau2", resultado);
 	}
 
 }
