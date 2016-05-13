@@ -32,7 +32,6 @@
 		</plugins>
    </pluginManagement>
 	</build>
-
 	<repositories>
 		<repository>
 			<id>prime-repo</id>
