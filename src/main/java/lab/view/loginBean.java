@@ -2,6 +2,7 @@ package lab.view;
 
 import javax.faces.bean.ManagedBean;
 
+@ManagedBean
 public class loginBean {
 	
 	private String username;
