@@ -7,7 +7,6 @@ import org.junit.Test;
 
 public class LoginTest {
 
-
 	@Test
 	public void LoginTest() {
 		String result;
@@ -18,7 +17,5 @@ public class LoginTest {
 		assertEquals("success", result);
 	}
 
-	
 
 }
-
