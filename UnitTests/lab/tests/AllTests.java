@@ -6,7 +6,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ LoginTest.class })
+@SuiteClasses({ TestLogin.class })
 public class AllTests {
 
 }
