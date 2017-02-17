@@ -32,6 +32,6 @@ public class loginBean {
 	if (username.equals("admin") && password.equals("admin")) {
 	return "success";
 	} else
-	return "failure";
+	return "failuree";
 	}
 }
