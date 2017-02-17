@@ -30,7 +30,7 @@ public class loginBean {
 	 
 	public String login() {
 	if (username.equals("admin") && password.equals("admin")) {
-	return "successow";
+	return "success";
 	} else
 	return "failure";
 	}
