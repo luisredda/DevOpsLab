@@ -1,5 +1,6 @@
+package java;
 //2
-package labTest;
+
 
 import static org.junit.Assert.*;
 import org.junit.Test;
