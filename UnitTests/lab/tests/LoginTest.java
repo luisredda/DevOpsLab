@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import lab.view.loginBean;
 
-	public class TestLogin {
+	public class LoginTest {
 
 		@Test
 		public void LoginTest() {
