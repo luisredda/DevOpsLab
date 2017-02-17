@@ -1,5 +1,5 @@
 //2
-package lab.tests;
+package labTest;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

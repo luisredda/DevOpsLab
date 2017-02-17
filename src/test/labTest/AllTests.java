@@ -1,5 +1,5 @@
 //1
-package lab.tests;
+package labTest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
