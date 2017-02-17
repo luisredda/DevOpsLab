@@ -1,3 +1,4 @@
+//3
 package lab.view;
 
 import javax.faces.bean.ManagedBean;

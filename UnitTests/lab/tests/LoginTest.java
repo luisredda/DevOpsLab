@@ -1,3 +1,4 @@
+//2
 package lab.tests;
 
 import static org.junit.Assert.*;
